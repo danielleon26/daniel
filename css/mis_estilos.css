@@ -1,0 +1,154 @@
+* {
+	margin: 0px;
+}
+body {
+	background: #922700;
+	width: 90%;
+	height: auto;
+	margin:auto;
+}
+.header {
+	background: #ffffff;
+	width: 100%;
+}
+.padding {
+	padding: 20px 0px 0px 0px;
+}
+.logo-img {
+	width: 150px;
+}
+.img-social {
+	width: 40px;
+}
+.hola {
+	text-align: right;
+	margin: auto;
+	padding: 48px 75px 0px 0px;
+}
+.hola1 {
+	margin: auto;
+	padding: 13px 0px 13px 52px;
+}
+.row {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+.menu {
+	background:#ff9900;
+	text-align: center;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+	line-height: 2;
+	}
+.menu li {
+	display: inline-block;	
+	}
+.menu li a {
+	padding: 10px 20px;
+	display: block;
+	color: #ffffff;
+	text-decoration:none;
+	text-align:center;  
+}
+.menu li a:hover {
+	background:#ccc;
+}
+.col-sm-12 {
+	text-align: center;
+}
+.hola2 {
+	background: #ffffff;
+	float: left;
+}
+.derecha {
+	float: right;
+	padding: 29px 0px 0px 0px;
+}
+.estilotextarea {
+	width:94%;
+	height:50px;
+	border-radius: 35px 35px 35px 35px;
+	-moz-border-radius: 35px 35px 35px 35px;
+	-webkit-border-radius: 35px 35px 35px 35px;
+	float: right;
+}
+.izquierda {
+	text-align: left;
+}
+.izquierda2 {
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 910px) {
+	 .izquierda2 {
+	 	width: 100%;
+	 }
+	 .derecha {
+	 	width: 100%;
+	 }
+	 .tamaño {
+	 	width: 50px;
+	 }
+	 .estilotextarea {
+	 	width: 80%;
+	 }
+	 .hola3 {
+	 	
+	 display:none !important;
+
+	 }
+}
+
+.input-group {
+	position: absolute;
+	width: 90%;
+}
+.search_bar {
+	width: 100%;
+	padding: 7px 10px;
+	position: relative;
+}
+.search_bar input {
+	width: 100%;
+	height: 50px;
+	border-radius:50px;
+	border-bottom: 2px solid #ccc;
+	height: 36px;
+	padding:0px 10px 0px 25px;
+}
+.icon-search {
+	position: absolute;
+	bottom: 16px;
+	left:19px;
+	text-decoration: none;
+
+}
+.hola3 {
+	background: #ffffff;
+	width: 100%;
+}
+.menu1 {
+	background:#ffffff;
+	text-align: left;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+	line-height: 2;
+	}
+.menu1 li {
+	display: inline-block;
+	}
+.menu1 li a {
+	padding: 10px 20px;
+	display: block;
+	color: #000000;
+	text-decoration:none;
+	text-align:center;  
+}
+.menu1 li a:hover {
+	background:#ccc;
+}
+
+
+
